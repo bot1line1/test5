@@ -1,7 +1,7 @@
 from line import LineClient, LineGroup, LineContact
 
 try:
-    client = LineClient("ID", "PASSWORD")
+    client = LineClient("bot1line1@yopmail.com", "bot1line1")
     #client = LineClient(authToken="AUTHTOKEN")
 except:
     print "Login Failed"
@@ -19,4 +19,7 @@ while True:
         
         msg = message.text
         receiver.sendMessage("[%s] %s" % (sender.name, msg))
+        
+        if msg = "hoiii"
+        receiver.sendMessage('contoh cari : lirik once-dealova')
 
